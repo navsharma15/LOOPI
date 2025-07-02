@@ -55,14 +55,15 @@ body {
 }
 
 .emoji {
-  font-size: 48px;
-  background: transparent;
+  font-size: 3.1rem;
+  padding: 10px;
   border: none;
+  background: none;
   cursor: pointer;
-  transition: transform 0.2s ease;
+  text-decoration: none;
 }
-
 .emoji:hover {
+  transition: 1ms;
   transform: scale(1.2);
 }
 

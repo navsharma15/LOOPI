@@ -145,3 +145,12 @@ body {
   color: #ffffff;
   text-decoration: none;
 }
+
+@media (max-width: 768px){
+  .card{
+    margin-top: 40px;
+     padding: 20px 30px;
+     width: 420px;
+  }
+  
+}
