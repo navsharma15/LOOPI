@@ -5,13 +5,15 @@
 }
 
 body {
-  background: #0e1420;
   height: 100vh;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: rgba(145, 94, 0, 0.763);
+  background-image: url(Backgroind.png);
+  background-position: center;
+  background-size: cover;
 }
 
 .container {

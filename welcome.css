@@ -12,11 +12,14 @@ body {
   align-items: center;
   justify-content: center;
   padding: 20px;
+  background-image: url(Backgroind.png);
+  background-position: center;
+  background-size: cover;
 }
 
 .welcome-container {
   text-align: center;
-  color: white;
+  color: rgba(255, 255, 0, 0.778);
   animation: fadeIn 1s ease-out;
   width: 100%;
   max-width: 1000px;
@@ -33,7 +36,8 @@ body {
   font-size: clamp(60px, 5vw, 20px);
   font-weight: bold;
   letter-spacing: 2px;
-  font-family:Georgia, 'Times New Roman', Times, serif
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  color: White;
 }
 
 .loop .o {
@@ -49,7 +53,7 @@ body {
   font-size: clamp(50px, 6vw, 70px);
   font-weight: 100;
   margin: 20px 0;
-  color: #ddd;
+ color: rgba(255, 255, 0, 0.778);
 }
 
 .btn {

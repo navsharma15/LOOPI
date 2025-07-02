@@ -5,13 +5,16 @@
 }
 
 body {
-  background: #0e1420;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: rgba(145, 94, 0, 0.763);
+  background-image: url(Backgroind.png);
+  background-position: center;
+  background-size: cover;
+   backdrop-filter: blur(25px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.841);
 }
 
 .register-container {
@@ -32,7 +35,7 @@ body {
 }
 
 .card {
-  background: #151c289a;
+  background: #15315e66;
   padding: 40px 30px;
   border-radius: 20px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
@@ -40,6 +43,10 @@ body {
   flex-direction: column;
   align-items: center;
   width: 450px;
+  border-top: 2px white solid;
+  border-left: 2px white solid;
+  border-bottom: 2px white solid;
+  border-right: 2px white solid;
 }
 
 .card h2 {
@@ -55,8 +62,12 @@ body {
   margin: 10px 0;
   border: none;
   border-radius: 12px;
-  background-color: #ffffff9c;
+  background-color: #1c1a1a1d;
   font-size: 16px;
+  border-top: 2px white solid;
+  border-bottom: 2px white solid;
+  border-right: 2px white solid;
+  color: white;
 }
 
 .options {
@@ -84,14 +95,17 @@ body {
 
 .main-btn {
   width: 100%;
-  background-color: #3b52d1;
+  background-color: #3b51d14e;
   color: white;
   border: none;
   margin-bottom: 20px;
+   border-top: 2px white solid;
+  border-bottom: 2px white solid;
+  border-right: 2px white solid;
 }
 
 .main-btn:hover {
-  background-color: #2e42b7;
+  background-color: #1a2353;
 }
 
 .or {
@@ -111,18 +125,23 @@ body {
   color: white;
   border: none;
   min-width: 80px;
+  border-top: 2px white solid;
+  border-left: 2px white solid;
+  border-bottom: 2px white solid;
+   border-right: 2px white solid;
+}
 }
 
 .social:hover {
-  background-color: #2e42b7;
+  background-color: #19214f;
 }
 
 .signin-text {
   font-size: 14px;
-  color: #ccc;
+  color: #756969;
 }
 
 .signin-text a {
-  color: #4a7eff;
+  color: #ffffff;
   text-decoration: none;
 }
