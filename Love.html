@@ -7,13 +7,15 @@
   <link rel="stylesheet" href="love.css" />
 </head>
 <body>
+  <div class="hamburger" onclick="toggleMenu()">☰</div>
   <div class="container">
     <aside class="sidebar">
+      <!-- <div class="hamburger" onclick="toggleMenu()">☰</div> -->
       <nav>
         <ul>
-          <li><span>⌂</span> Home</li>
+          <a href="welcome.html"><li><span>⌂</span> Home</li></a>
           <li><span>📄</span> Library</li>
-          <li><span>🌊</span> Mood</li>
+           <a href="mood.html"><li><span>🌊</span> Mood</li></a>
           <li><span>🔍</span> Search</li>
         </ul>
       </nav>
@@ -120,5 +122,6 @@
       </div>
     </main>
   </div>
+ <script src="love.js"></script>
 </body>
 </html>

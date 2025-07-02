@@ -43,7 +43,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 450px;
+  width: 500px;
   border-bottom: 2px white solid;
   border-right: 2px white solid;
   border-top: 2px white solid;
