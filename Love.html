@@ -10,12 +10,11 @@
   <div class="hamburger" onclick="toggleMenu()">☰</div>
   <div class="container">
     <aside class="sidebar">
-      <!-- <div class="hamburger" onclick="toggleMenu()">☰</div> -->
-      <nav>
+      <nav id="sidebarNav">
         <ul>
           <a href="welcome.html"><li><span>⌂</span> Home</li></a>
           <li><span>📄</span> Library</li>
-           <a href="mood.html"><li><span>🌊</span> Mood</li></a>
+          <a href="mood.html"><li><span>🌊</span> Mood</li></a>
           <li><span>🔍</span> Search</li>
         </ul>
       </nav>
@@ -35,93 +34,119 @@
       <img class="banner" src="image copy.png" alt="Banner">
       <h1>Love Songs</h1>
       <div class="playlist">
-        <div class="song-card">
+        <!-- SONG CARDS WITH AUDIO -->
+        <div class="song-card" onclick="playSong(this)">
           <img src="https://scrolldroll.com/wp-content/uploads/2023/02/ae-dil-hai-mushqil-best-bollywood-romantic-movies.jpg" alt="">
           <div class="info">
             <h3>Channa Mereya</h3>
             <p>Arijit Singh</p>
           </div>
+          <audio src="https://paglasongs.com.co/uploads/files/sfd31/15372/Channa%20Mereya(PaglaSongs).mp3"></audio>
         </div>
-        <div class="song-card">
+
+        <div class="song-card" onclick="playSong(this)">
           <img src="https://images.indianexpress.com/2014/05/villain480.jpg?w=414" alt="">
           <div class="info">
             <h3>Galliyan</h3>
             <p>Ankit Tiwari</p>
           </div>
+          <audio src="https://paglasongs.com.co/uploads/files/sfd4/1875/Teri%20Galliyan(PaglaSongs).mp3"></audio>
         </div>
-        <div class="song-card">
+
+        <div class="song-card" onclick="playSong(this)">
           <img src="https://i.ytimg.com/vi/iBa00L677qs/maxresdefault.jpg" alt="">
           <div class="info">
             <h3>Raabta</h3>
             <p>Arijit Singh</p>
           </div>
+          <audio src="https://paglasongs.com.co/uploads/files/sfd27/13196/Tere%20Pyaar%20Mein(PaglaSongs).mp3"></audio>
         </div>
-        <div class="song-card">
+
+        <div class="song-card" onclick="playSong(this)">
           <img src="https://newsarenaindia.com/_next/image?url=https%3A%2F%2Fimages.newsarenaindia.com%2F%2Funtitled-design-20241228t165436359jpg_1735385559844.jpg&w=1920&q=75" alt="">
           <div class="info">
             <h3>Tera Ban Jaunga</h3>
             <p>Akhil Sachdeva</p>
           </div>
+          <audio src="https://paglasongs.com.co/files/download/id/12204"></audio>
         </div>
-        <div class="song-card">
+
+        <div class="song-card" onclick="playSong(this)">
           <img src="https://staticimg.amarujala.com/assets/images/2020/01/16/love-aaj-kal-2-first-look_1579157167.jpeg" alt="">
           <div class="info">
             <h3>Shayad</h3>
             <p>Arijit Singh</p>
           </div>
+          <audio src="https://paglasongs.com.co/files/download/type/128/id/14745"></audio>
         </div>
-        <div class="song-card">
+
+        <div class="song-card" onclick="playSong(this)">
           <img src="https://i.ytimg.com/vi/OSF1k2pn4yI/sddefault.jpg" alt="">
           <div class="info">
             <h3>Hasi Ban Gaye</h3>
             <p>Ami Mishra</p>
           </div>
+          <audio src="https://paglasongs.com.co/files/download/id/1210"></audio>
         </div>
-        <div class="song-card">
+
+        <div class="song-card" onclick="playSong(this)">
           <img src="https://anandkumarrsonfilms.com/wp-content/uploads/2021/12/atrangi-re-movie-poster.jpg" alt="">
           <div class="info">
             <h3>Rait Zara Si</h3>
             <p>Arijit Singh</p>
           </div>
+          <audio src="https://paglasongs.com.co/files/download/id/2806"></audio>
         </div>
-        <div class="song-card">
+
+        <div class="song-card" onclick="playSong(this)">
           <img src="https://i.ytimg.com/vi/uV50UfcIT68/maxresdefault.jpg" alt="">
           <div class="info">
             <h3>Tum Se Hi</h3>
             <p>Mohit Chauhan</p>
           </div>
+          <audio src="https://paglasongs.com.co/files/download/id/1432"></audio>
         </div>
-        <div class="song-card">
+
+        <div class="song-card" onclick="playSong(this)">
           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZ9McBUoSstc69BeLCr5x5J9TicIPWJHxBog&s" alt="">
           <div class="info">
             <h3>Pee Loon</h3>
             <p>Mohit Chauhan</p>
           </div>
+          <audio src="https://paglasongs.com.co/files/download/id/11556"></audio>
         </div>
-        <div class="song-card">
+
+        <div class="song-card" onclick="playSong(this)">
           <img src="https://i0.wp.com/www.socialnews.xyz/wp-content/uploads/2020/01/06/enkkl9quwaemacm2363521.jpg?w=777&crop=0,10,777px,437px" alt="">
           <div class="info">
             <h3>Dil Mein Ho Tum</h3>
             <p>Armaan Malik</p>
           </div>
+          <audio src="https://paglasongs.com.co/files/download/id/8387"></audio>
         </div>
-        <div class="song-card">
+
+        <div class="song-card" onclick="playSong(this)">
           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwJynzFJ6yHxOTPqh76HTFc0sUVH0VuoJVLU8zkktZP26h-qMag0Hzi4xUx4SFJomrX94&usqp=CAU" alt="">
           <div class="info">
             <h3>Jeene Laga Hoon</h3>
             <p>Atif Aslam</p>
           </div>
+          <audio src="https://paglasongs.com.co/files/download/id/4158"></audio>
         </div>
-        <div class="song-card">
+
+        <div class="song-card" onclick="playSong(this)">
           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAaQ1YuqhEm2QmMKS3RP1CodO0v9conbN8Mg&s" alt="">
           <div class="info">
             <h3>Tum Hi Ho</h3>
             <p>Arijit Singh</p>
           </div>
+          <audio src="https://paglasongs.com.co/files/download/id/18066"></audio>
         </div>
       </div>
     </main>
   </div>
- <script src="love.js"></script>
+
+  <!-- 🎧 Music JS -->
+  <script src="love.js"></script>
 </body>
 </html>

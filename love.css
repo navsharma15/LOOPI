@@ -170,7 +170,7 @@ nav ul li:hover {
 }
 
 /* Show hamburger and adjust layout on small screens */
-@media (max-width: 600px) {
+@media (max-width: 700px) {
   .hamburger {
     display: block;
   }

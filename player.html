@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Now Playing</title>
+  <link rel="stylesheet" href="player.css" />
+</head>
+<body>
+    <a href="love.html" class="back-button">← Back</a>
+
+  <!-- Background -->
+  <div class="bg-image" id="bg-image"></div>
+
+  <!-- Player Card -->
+  <div class="player-container">
+    <div class="song-box">
+      <img id="song-image" src="" alt="Song Image" />
+    </div>
+    <h1 id="song-title">Song Title</h1>
+    <h3 id="song-artist">Artist Name</h3>
+
+    <audio id="audio" controls></audio>
+
+    <div class="controls">
+      <button id="playPause">▶</button>
+      <input type="range" id="progress" value="0" />
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer-player">
+  <button id="prev">⏮</button>
+  <button id="footerPlayPause">⏯</button>
+  <button id="next">⏭</button>
+</footer>
+  <script src="player.js"></script>
+</body>
+</html>
