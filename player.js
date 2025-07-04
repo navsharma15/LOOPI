@@ -1,3 +1,4 @@
+
 let playlist = JSON.parse(localStorage.getItem("playlist"));
 let index = parseInt(localStorage.getItem("songIndex"));
 let current = playlist[index];
@@ -57,3 +58,5 @@ document.getElementById("prev").addEventListener("click", () => {
   loadSong(current);
   audio.play();
 });
+
+

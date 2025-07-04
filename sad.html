@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Loop - Love Songs Playlist</title>
+  <link rel="stylesheet" href="sad.css" />
+</head>
+<body>
+  <div class="hamburger" onclick="toggleMenu()">☰</div>
+  <div class="container">
+    <aside class="sidebar">
+      <nav id="sidebarNav">
+        <ul>
+          <a href="welcome.html"><li><span>⌂</span> Home</li></a>
+          <li><span>📄</span> Library</li>
+          <a href="mood.html"><li><span>🌊</span> Mood</li></a>
+          <li><span>🔍</span> Search</li>
+        </ul>
+      </nav>
+      <div class="now-playing">
+        <img src="https://c.saavncdn.com/151/Ek-Villain-Hindi-2014-500x500.jpg" alt="Song image">
+        <h3>Humdard</h3>
+        <p>Arijit Singh</p>
+        <div class="controls">
+          <button>◀</button>
+          <button>▶</button>
+          <button>▶</button>
+        </div>
+      </div>
+    </aside>
+
+    <main class="main-content">
+      <img class="banner" src="Sad.jpg" alt="Banner">
+      <h1>Sad Songs</h1>
+      <div class="playlist">
+        <!-- SONG CARDS WITH AUDIO -->
+        <div class="song-card" onclick="playSong(this)">
+          <img src="https://c.saavncdn.com/074/Sonu-Ke-Titu-Ki-Sweety-Hindi-2018-20180214153942-500x500.jpg" alt="">
+          <div class="info">
+            <h3>Tera Yaar Hoon Main</h3>
+            <p>Arijit Singh</p>
+          </div>
+          <audio src="https://paglasongs.com.co/files/download/id/1584"></audio>
+        </div>
+
+        <div class="song-card" onclick="playSong(this)">
+          <img src="https://c.saavncdn.com/763/Tujhe-Kitna-Chahne-Lage-From-Kabir-Singh--Hindi-2019-20190531075012-500x500.jpg" alt="">
+          <div class="info">
+            <h3>Tujhe Kitna Chahne Lage</h3>
+            <p>Arijit Singh </p>
+          </div>
+          <audio src="https://paglasongs.com.co/files/download/id/816"></audio>
+        </div>
+
+        <div class="song-card" onclick="playSong(this)">
+          <img src="https://i.ytimg.com/vi/YBFdDPA78Cg/maxresdefault.jpg" alt="">
+          <div class="info">
+            <h3>Aaram Aata Hai Deedar Se</h3>
+            <p>Azaan Sami Khan</p>
+          </div>
+          <audio src="https://paglasongs.com.co/files/download/id/7971"></audio>
+        </div>
+
+        <div class="song-card" onclick="playSong(this)">
+          <img src="https://i.ytimg.com/vi/sVRwZEkXepg/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCpPAG-eRYVoFSx_z_hXHO1YCL4Dg" alt="">
+          <div class="info">
+            <h3>Hamari Adhuri Kahani</h3>
+            <p>Arijit Singh</p>
+          </div>
+          <audio src="https://paglasongs.com.co/files/download/id/3368"></audio>
+        </div>
+
+        <div class="song-card" onclick="playSong(this)">
+          <img src="https://a10.gaanacdn.com/gn_img/song/2lV3d1WRgB/V3d56QQoWR/size_m_1516003439.webp" alt="">
+          <div class="info">
+            <h3>Dil Diyan Gallan</h3>
+            <p>Atif Aslam</p>
+          </div>
+          <audio src="https://paglasongs.com.co/files/download/type/128/id/12972"></audio>
+        </div>
+
+        <div class="song-card" onclick="playSong(this)">
+          <img src="https://c-cdnet.cdn.smule.com/rs-s80/arr/0d/eb/5968f580-ba12-426a-bf7e-47b237b25fca.jpg" alt="">
+          <div class="info">
+            <h3>Roke Na Ruke Naina</h3>
+            <p>Raj Barman</p>
+          </div>
+          <audio src="https://paglasongs.com.co/files/download/id/1631"></audio>
+        </div>
+
+        <div class="song-card" onclick="playSong(this)">
+          <img src="https://i.ytimg.com/vi/Dm6YRJHy64c/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLD4zK-Gk-45vGDjSWVogJuMUO3bQA" alt="">
+          <div class="info">
+            <h3>Raataan Lambiyan</h3>
+            <p>Jubin Nautiyal</p>
+          </div>
+          <audio src="https://paglasongs.com.co/files/download/id/3567"></audio>
+        </div>
+
+        <div class="song-card" onclick="playSong(this)">
+          <img src="https://i.pinimg.com/736x/72/dd/cf/72ddcf3778e747c07bf5715529bab23d.jpg" alt="">
+          <div class="info">
+            <h3>Khairiyat</h3>
+            <p>Arijit Singh</p>
+          </div>
+          <audio src="https://paglasongs.com.co/files/download/id/1323"></audio>
+        </div>
+
+        <div class="song-card" onclick="playSong(this)">
+          <img src="https://i1.sndcdn.com/artworks-000575101799-retbj9-t1080x1080.jpg" alt="">
+          <div class="info">
+            <h3>Tera Ban Jaunga </h3>
+            <p>Akhil Sachdeva</p>
+          </div>
+          <audio src="https://paglasongs.com.co/files/download/id/3379"></audio>
+        </div>
+
+        <div class="song-card" onclick="playSong(this)">
+          <img src="https://upload.wikimedia.org/wikipedia/en/8/85/Ae_Watan_%282018%29.jpg" alt="">
+          <div class="info">
+            <h3>Ae Watan</h3>
+            <p>Sunidhi Chauhan</p>
+          </div>
+          <audio src="https://paglasongs.com.co/files/download/id/18530"></audio>
+        </div>
+
+        <div class="song-card" onclick="playSong(this)">
+          <img src="https://i1.sndcdn.com/artworks-000110046203-9uzoif-t500x500.jpg" alt="">
+          <div class="info">
+            <h3>Jeena Jeena</h3>
+            <p>Atif Aslam</p>
+          </div>
+          <audio src="https://paglasongs.com.co/files/download/id/16171"></audio>
+        </div>
+
+        <div class="song-card" onclick="playSong(this)">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKAi6TAUvTgpbwjGTsWw0C0t2KaCWJdWXLtUlc6qr-z_BRfcNzbc0ngKTr-enBksn_BBw&usqp=CAU" alt="">
+          <div class="info">
+            <h3>Khamoshiyan</h3>
+            <p>Arijit Singh</p>
+          </div>
+          <audio src="https://paglasongs.com.co/files/download/id/12120"></audio>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <!-- 🎧 Music JS -->
+  <script src="sad.js"></script>
+</body>
+</html>
