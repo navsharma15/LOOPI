@@ -2,7 +2,7 @@
 body {
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
-  background-image: url(Backgroind.png);
+  background-image: url('Background.png');
   color: white;
   display: flex;
   justify-content: center;
@@ -24,7 +24,6 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-
 }
 
 nav ul {
@@ -42,7 +41,6 @@ nav ul li {
   gap: 10px;
   color: #fff;
   transition: 0.3s;
-  list-style: none;
 }
 
 nav ul li:hover {
@@ -57,7 +55,7 @@ nav ul li:hover {
 .now-playing img {
   width: 100%;
   border-radius: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .now-playing h3 {
@@ -88,7 +86,7 @@ nav ul li:hover {
 
 .main-content {
   flex: 1;
-  background: linear-gradient(to right, rgba(10, 10, 30, 0.9), rgba(60, 0, 60, 0.7)), url('Bahahahah.jpeg') center/cover no-repeat;
+  background: linear-gradient(to right, rgba(10, 10, 30, 0.9), rgba(60, 0, 60, 0.7)), url('Hidden\ gag\ in\ the\ Mr\ Bean\ intro\ has\ been\ re-discovered.jpeg') center/cover no-repeat;
   padding: 30px;
   overflow-y: auto;
   position: relative;
@@ -145,15 +143,8 @@ nav ul li:hover {
   font-size: 14px;
   color: #ccc;
 }
-.hamburger {
-  display: none;
-  font-size: 26px;
-  color: white;
-  cursor: pointer;
-  margin-bottom: 10px;
-}
 
-/* Hamburger icon default */
+/* Hamburger Icon */
 .hamburger {
   display: none;
   position: absolute;
@@ -166,19 +157,24 @@ nav ul li:hover {
   padding: 8px 12px;
   border-radius: 8px;
   cursor: pointer;
+  margin-bottom: 10px;
 }
 
-/* Show hamburger and adjust layout on small screens */
-@media (max-width: 700px) {
+/* Responsive Layout */
+@media (max-width: 768px) {
   .hamburger {
     display: block;
+  }
+
+  .container {
+    flex-direction: column;
   }
 
   .sidebar {
     width: 100%;
     flex-direction: column;
     align-items: flex-start;
-    padding-top: 60px; /* space for hamburger */
+    padding-top: 60px;
   }
 
   nav {
@@ -198,21 +194,11 @@ nav ul li:hover {
     padding: 20px;
   }
 
-  .playlist {
-    grid-template-columns: 1fr;
-  }
-}
-
-@media (max-width: 768px) {
-  .container {
-    flex-direction: column;
-  }
-  .sidebar {
-    width: 100%;
-    flex-direction: row;
-    justify-content: space-around;
-  }
   .main-content h1 {
     font-size: 28px;
+  }
+
+  .playlist {
+    grid-template-columns: 1fr;
   }
 }

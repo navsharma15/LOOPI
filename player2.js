@@ -1,4 +1,4 @@
-const backPage = localStorage.getItem("backPage") ||"funnn";
+const backPage = localStorage.getItem("backPage") ||"funnny.html";
     document.getElementById("backBtn").setAttribute("href", backPage);
 
     let playlist = JSON.parse(localStorage.getItem("playlist"));
