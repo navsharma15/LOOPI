@@ -30,7 +30,7 @@ body {
   font-size: clamp(110px, 10vw, 400px); /* Min 28px, max 60px */
   font-weight: 100;
   margin-bottom: 10px;
-  margin-right: 29px;
+  margin-right: 40px;
 }
 
 .loop {
