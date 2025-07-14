@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Loop - Love Songs Playlist</title>
+  <link rel="stylesheet" href="love.css" />
+</head>
+<body>
+  <div class="hamburger" onclick="toggleMenu()">☰</div>
+  <div class="container">
+    <aside class="sidebar">
+      <nav id="sidebarNav">
+        <ul>
+          <a href="welcome.html"><li><span>⌂</span> Home</li></a>
+          <li><span>📄</span> Library</li>
+          <a href="mood.html"><li><span>🌊</span> Mood</li></a>
+          <li><span>🔍</span> Search</li>
+        </ul>
+      </nav>
+      <div class="now-playing">
+        <img src="https://scrolldroll.com/wp-content/uploads/2023/02/ae-dil-hai-mushqil-best-bollywood-romantic-movies.jpg" alt="Song image">
+        <h3>Channa Mereya</h3>
+        <p>Arijit Singh</p>
+        <div class="controls">
+          <button>◀</button>
+          <button>▶</button>
+          <button>▶</button>
+        </div>
+      </div>
+    </aside>
+
+    <main class="main-content">
+      <img class="banner" src="image copy.png" alt="Banner">
+      <h1>Angry Songs</h1>
+      <div class="playlist">
+        <!-- SONG CARDS WITH AUDIO -->
+        <div class="song-card" onclick="playSong(this)">
+          <img src="https://scrolldroll.com/wp-content/uploads/2023/02/ae-dil-hai-mushqil-best-bollywood-romantic-movies.jpg" alt="">
+          <div class="info">
+            <h3>Bande</h3>
+            <p>Sivam</p>
+          </div>
+          <audio src="https://paglasongs.com.co/files/download/id/10253"></audio>
+        </div>
+
+        <div class="song-card" onclick="playSong(this)">
+          <img src="https://images.indianexpress.com/2014/05/villain480.jpg?w=414" alt="">
+          <div class="info">
+            <h3>Kar Har Maidaan Fateh</h3>
+            <p>Shreya Ghoshal</p>
+          </div>
+          <audio src="https://320.pagalnew.com/download-320k.php?id=2873"></audio>
+        </div>
+
+        <div class="song-card" onclick="playSong(this)">
+          <img src="https://i.ytimg.com/vi/iBa00L677qs/maxresdefault.jpg" alt="">
+          <div class="info">
+            <h3>Malang Sajna</h3>
+            <p>Sachet Tandon</p>
+          </div>
+          <audio src="https://paglasongs.com.co/files/download/type/320/id/12268"></audio>
+        </div>
+
+        <div class="song-card" onclick="playSong(this)">
+          <img src="https://newsarenaindia.com/_next/image?url=https%3A%2F%2Fimages.newsarenaindia.com%2F%2Funtitled-design-20241228t165436359jpg_1735385559844.jpg&w=1920&q=75" alt="">
+          <div class="info">
+            <h3>Bekhayali</h3>
+            <p>Arijit Singh</p>
+          </div>
+          <audio src="https://paglasongs.com.co/files/download/id/20289"></audio>
+        </div>
+
+        <div class="song-card" onclick="playSong(this)">
+          <img src="https://staticimg.amarujala.com/assets/images/2020/01/16/love-aaj-kal-2-first-look_1579157167.jpeg" alt="">
+          <div class="info">
+            <h3>Thappad </h3>
+            <p>Lakshay Gahlawat</p>
+          </div>
+          <audio src="https://paglasongs.com.co/files/download/id/6894"></audio>
+        </div>
+
+        <div class="song-card" onclick="playSong(this)">
+          <img src="https://i.ytimg.com/vi/OSF1k2pn4yI/sddefault.jpg" alt="">
+          <div class="info">
+            <h3>Jungle Mein Kaand</h3>
+            <p>Vishal Dadlani</p>
+          </div>
+          <audio src="https://320.pagalnew.com/download-320k.php?id=36573"></audio>
+        </div>
+
+        <div class="song-card" onclick="playSong(this)">
+          <img src="https://anandkumarrsonfilms.com/wp-content/uploads/2021/12/atrangi-re-movie-poster.jpg" alt="">
+          <div class="info">
+            <h3>Bairiya Re</h3>
+            <p>Vishal Mishra</p>
+          </div>
+          <audio src="https://paglasongs.com.co/files/download/id/17924"></audio>
+        </div>
+
+        <div class="song-card" onclick="playSong(this)">
+          <img src="https://i1.sndcdn.com/artworks-tSTYvte3mYdarR3w-dkoxvQ-t500x500.jpg" alt="">
+          <div class="info">
+            <h3>Tum Se</h3>
+            <p>Raghav Chaitanya</p>
+          </div>
+          <audio src="https://paglasongs.com.co/files/download/id/18066"></audio>
+        </div>
+
+        <div class="song-card" onclick="playSong(this)">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpri5Pty8C9HlNCxnI54kewfGer_BFrWWG7eUronhzLKMWa08aw5RVkdBkeTWID0mFxMw&usqp=CAU" alt="">
+          <div class="info">
+            <h3>Zinda Banda</h3>
+            <p>Anirudh Ravichander</p>
+          </div>
+          <audio src="https://paglasongs.com.co/files/download/id/14893"></audio>
+        </div>
+
+        <div class="song-card" onclick="playSong(this)">
+          <img src="https://i0.wp.com/www.socialnews.xyz/wp-content/uploads/2020/01/06/enkkl9quwaemacm2363521.jpg?w=777&crop=0,10,777px,437px" alt="">
+          <div class="info">
+            <h3>Apna Time Aayega</h3>
+            <p>Ranveer Singh</p>
+          </div>
+          <audio src="https://320.pagalnew.com/download-320k.php?id=2692"></audio>
+        </div>
+
+        <div class="song-card" onclick="playSong(this)">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwJynzFJ6yHxOTPqh76HTFc0sUVH0VuoJVLU8zkktZP26h-qMag0Hzi4xUx4SFJomrX94&usqp=CAU" alt="">
+          <div class="info">
+            <h3>Sher Aaya Sher</h3>
+            <p>DIVINE</p>
+          </div>
+          <audio src="https://320.pagalnew.com/download-320k.php?id=2686"></audio>
+        </div>
+
+        <div class="song-card" onclick="playSong(this)">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAaQ1YuqhEm2QmMKS3RP1CodO0v9conbN8Mg&s" alt="">
+          <div class="info">
+            <h3>Tera Baap Aaya</h3>
+            <p>Farhad Bhiwandiwala</p>
+          </div>
+          <audio src="https://320.pagalnew.com/download-320k.php?id=2663"></audio>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <!-- 🎧 Music JS -->
+  <script src="love.js"></script>
+</body>
+</html>

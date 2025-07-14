@@ -1,0 +1,150 @@
+/* Prevent scrolling */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  color: white;
+  overflow: hidden;
+  background: #000;
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+
+/* Fullscreen background image with blur and transparency */
+.bg-image {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  opacity: 0.5;
+  filter: blur(4px);
+  z-index: -1;
+}
+
+/* Back button at top left */
+.back-button {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  background: rgba(255,255,255,0.1);
+  padding: 8px 12px;
+  border-radius: 8px;
+  z-index: 100;
+}
+
+/* Fixed player container centered on screen */
+.player-container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  max-width: 500px;
+  background: rgba(217, 201, 201, 0.255);
+  border-radius: 20px;
+  padding: 20px;
+  text-align: center;
+  z-index: 10;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+}
+
+.song-box {
+  width: 100%;
+  max-width: 300px;
+  height: 300px;
+  margin: 0 auto 20px;
+  overflow: hidden;
+  border-radius: 20px;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+}
+
+#song-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+h3 {
+  font-weight: 400;
+  color: #ccc;
+  margin-bottom: 20px;
+}
+
+.controls {
+  margin-top: 20px;
+}
+
+.controls button {
+  font-size: 22px;
+  padding: 10px 20px;
+  border: none;
+  background: white;
+  color: black;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#progress {
+  width: 100%;
+  margin-top: 10px;
+}
+
+/* Footer music controls */
+.footer-player {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0,0,0,0.8);
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 10px 0;
+  z-index: 50;
+}
+
+.footer-player button {
+  font-size: 22px;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+/* Mobile Responsive */
+@media (max-width: 600px) {
+  .player-container {
+    width: 90%;
+    max-width: 90%;
+    padding: 15px;
+  }
+
+  .song-box {
+    height: 250px;
+    max-width: 250px;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  h3 {
+    font-size: 16px;
+  }
+
+  .controls button {
+    font-size: 18px;
+    padding: 8px 16px;
+  }
+}
